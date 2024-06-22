@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-content p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #3f51b5;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+}
+
+.skill-item i {
+    font-size: 1.5em;
+}
+
+.whatsapp-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.whatsapp-link i {
+    margin-right: 10px;
+}
+
+.whatsapp-link:hover {
+    background-color: #128C7E;
+}
+
+footer {
+    background-color: #3f51b5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
